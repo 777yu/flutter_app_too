@@ -14,6 +14,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _payInfo = "";
   Map _payResult;
+  int a;
 
   final myController = new TextEditingController();
 
